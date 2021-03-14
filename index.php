@@ -90,13 +90,6 @@
                         </ul>
                     </div>
                 </div>
-                <div class="content-wrapper five-content-grid">
-                    <div class="wait-animation">
-                        <div class="sphere-grey sphere1"></div>
-                        <div class="sphere-grey sphere2"></div>
-                        <div class="sphere-grey sphere1"></div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
