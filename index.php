@@ -1,6 +1,6 @@
 <?php
 
-    $age = date("Y") - 2003
+    $age = date("Y") - 2003;
 
 ?>
 
@@ -19,7 +19,7 @@
         <ul>
           <li><a href="#banner">Accueil</a></li>
           <li><a href="#about">À propos</a></li>
-          <li><a href="#">Mes projets</a></li>
+          <li><a href="#projects">Mes projets</a></li>
           <li><a href="#">Compétences</a></li>
           <li><a href="#">Me contacter</a></li>
         </ul>
@@ -47,12 +47,78 @@
             </div>
         </div>
     </section>
+
+    <section id="projects">
+        <div class="title-section title-projects">
+            <div class="logo-title-projects"></div>
+            <h1>Mes projets</h1>
+        </div>
+        <div class="content-section-projects">
+            <div class="wrapper">
+                <div class="content-wrapper one-content-grid">
+                    <div class="title-content-wrapper"><i class="fas fa-book"></i> Portfolio</div>
+                    <div class="language"><i class="fas fa-code"></i> HTML - CSS - PHP</div>
+                    <div class="description-content-wrapper">Mon portfolio, présentant tout ce qui a à savoir sur moi.</div>
+                    <div class="links links-one">
+                        <ul>
+                            <li class="github-section-projects"><a href="https://github.com/Dany01000110/portfolio" target="_blank"><i class="fab fa-github"></i> Github</a></li>
+                            <li class="stagazers-section-projects"><i class="fas fa-star"></i> 0 étoiles</li>
+                            <li class="forks-section-projects"><i class="fas fa-code-branch"></i> 0 forks</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-wrapper two-content-grid">
+                    <div class="title-content-wrapper"><i class="fas fa-book"></i> Geopol-RP</div>
+                    <div class="language"><i class="fas fa-code"></i> HTML - CSS - PHP</div>
+                    <div class="description-content-wrapper">Site complet pour un serveur Discord RP géopolitique.</div>
+                    <div class="links links-two">
+                        <ul>
+                            <li class="github-section-projects"><a href="https://github.com/Dany01000110/portfolio" target="_blank"><i class="fab fa-github"></i> Github</a></li>
+                            <li class="stagazers-section-projects"><i class="fas fa-star"></i> 0 étoiles</li>
+                            <li class="forks-section-projects"><i class="fas fa-code-branch"></i> 0 forks</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-wrapper three-content-grid">
+                    <div class="title-content-wrapper"><i class="fas fa-book"></i> Logo projet Discord</div>
+                    <div class="language"><i class="fas fa-palette"></i></i> Graphisme</div>
+                    <div class="description-content-wrapper">Logo d'un futur projet Discord</div>
+                    <div class="content-img"></div>
+                    <div class="links">
+                        <ul>
+                            <li class="discord-section-projects discord-clipboard" data-clipboard-text="Dany01000110#3355" data-title="Cliquer pour copier"><i class="fab fa-discord"></i> Dany01000110#3355</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-wrapper five-content-grid">
+                    <div class="wait-animation">
+                        <div class="sphere-grey sphere1"></div>
+                        <div class="sphere-grey sphere2"></div>
+                        <div class="sphere-grey sphere1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <script type="text/javascript">
         window.addEventListener("scroll", function() {
           var header = document.querySelector("header");
           header.classList.toggle("sticky", window.scrollY > 0);
         })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+    <script type="text/javascript">
+        var clipboard = new ClipboardJS('.discord-clipboard');
+        var ele1 = document.getElementsByClassName('discord-clipboard');
+
+        clipboard.on('success', function(e) {
+            
+        });
+
+        clipboard.on('error', function(e) {
+            
+        });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
 </body>
