@@ -25,7 +25,6 @@
                     <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Mes projets</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
                 </ul>
             </div>
         </div>
@@ -49,7 +48,7 @@
     </section>
     <section id="projects" class="banner">
         <div class="title-selection">
-            <div class="logo-title-info"></div>
+            <div class="logo-title-projects"></div>
             <h1 class="projects-title title-white">Mes projets</h1>
         </div>
         <div class="content-selection-pr
@@ -58,7 +57,7 @@
     </section>
     <section id="skills">
         <div class="title-selection">
-            <div class="logo-title-info"></div>
+            <div class="logo-title-skills"></div>
             <h1 class="projects-title">Mes compétences</h1>
         </div>
         <div class="content-selection-skills">
