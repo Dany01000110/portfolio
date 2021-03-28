@@ -1,118 +1,120 @@
-<?php
-
-    $age = date("Y") - 2003;
-
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Dany.01000110 - Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dany.01000110 | Mon portfolio</title>
+    <meta name="twitter:description" content="Voici mon portfolio qui vous permettra de me connaître moi et en savoir plus concernant mes compétences, mes projets actuels et passés ainsi que mon style graphique et de développement.">
+    <meta name="twitter:card" content="summary">
+    <meta name="description" content="Voici mon portfolio qui vous permettra de me connaître moi et en savoir plus concernant mes compétences, mes projets actuels et passés ainsi que mon style graphique et de développement.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:title" content="Dany.01000110 | Mon portfolio">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css?h=4ac31c4ea98628f60401606a6812327b">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header>
-        <a href="#" class="logo">Dany.</a>
-        <ul>
-          <li><a href="#banner">Accueil</a></li>
-          <li><a href="#about">À propos</a></li>
-          <li><a href="#projects">Mes projets</a></li>
-          <li><a href="#">Compétences</a></li>
-          <li><a href="#">Me contacter</a></li>
-        </ul>
-    </header>
-    
-    <section id="banner" class="banner">
-        <h1>Dany.01000110</h1>
-        <h2>Développeur web ⠂Graphiste</h2>
-    </section>
 
-    <section id="about">
-        <div class="title-section">
+<body style="user-select: none;font-family: 'Montserrat', sans-serif;overflow-x: hidden;">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean sticky">
+        <div class="container"><a class="navbar-brand text-uppercase" href="#" style="font-size: 35px;">Dany.</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Mes projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="banner home">
+        <h1 class="text-center justify-content-center align-items-center big-title">Dany.01000110</h1>
+        <h2 class="text-center justify-content-center align-items-center sub-big-title"><br>Développeur web ⠂Graphiste<br><br></h2>
+    </section>
+    <section id="about" class="about">
+        <div class="title-selection">
             <div class="logo-title-info"></div>
-            <h1>À propos</h1>
+            <h1 class="about-title">À propos</h1>
         </div>
-
-        <div class="content-section-info">
-            <div class="photo-section">
-                <img src="img/photo_of_me.jpg" alt="Ma photo" title="Ma photo">
-            </div>
-            <div class="txt">
-                <p>Salut ! Je suis Dany, j'ai <?= $age ?> ans, je suis Développeur Web front-end et graphiste "Flat Design" depuis maintenant <?= date('Y') - 2019 ?> ans je compte vouloir en vivre quand j'aurai fini mes études concernant l'une de ces professions !</p>
-                <p>Travaillant sur divers projets web (open-source en majorité), je suis ouvert à toute discussion sur d'éventuel projet. Pour ce qui est du graphisme, je travaille essentiellement pour des serveurs Discord et pour moi-même en faisant des designs de t-shirt sur <a href="https://www.spreadshirt.fr/" target="_blank">SpreadShirt <i class="fas fa-external-link-alt fa-xs"></i></a>.</p>
-                <p>Je peux également vous conseiller et vous aider à débuter dans le développement web (HTML, CSS et PHP uniquement) ainsi que vous aider à trouver vos logiciels pour travailler dans le graphisme que ce soit en amateur ou en professionnel.</p>
+        <div class="content-selection-about"><img class="rounded-circle profile-picture" width="200" height="200" alt="Ma photo" src="assets/img/UJQkdyzU.jpg?h=30ec60747d51abbc56f56c003f28662d">
+            <div class="para-about">
+                <p><br>Salut ! Je suis Dany, j'ai 18 ans, je suis Développeur Web front-end et graphiste "Flat Design" depuis maintenant 2 ans je compte vouloir en vivre quand j'aurai fini mes études concernant l'une de ces professions !<br><br></p>
+                <p><br>Travaillant sur divers projets web (open-source en majorité), je suis ouvert à toute discussion sur d'éventuel projet. Pour ce qui est du graphisme, je travaille essentiellement pour des serveurs Discord et pour moi-même en faisant des designs de t-shirt sur <br><br><a href="#">Spreadshirt</a></p>
+                <p><br>Je peux également vous conseiller et vous aider à débuter dans le développement web (HTML, CSS et PHP uniquement) ainsi que vous aider à trouver vos logiciels pour travailler dans le graphisme que ce soit en amateur ou en professionnel.<br><br></p>
             </div>
         </div>
     </section>
-
-    <section id="projects">
-        <div class="title-section title-projects">
-            <div class="logo-title-projects"></div>
-            <h1>Mes projets</h1>
+    <section id="projects" class="banner">
+        <div class="title-selection">
+            <div class="logo-title-info"></div>
+            <h1 class="projects-title title-white">Mes projets</h1>
         </div>
-        <div class="content-section-projects">
-            <div class="wrapper">
-                <div class="content-wrapper one-content-grid">
-                    <div class="title-content-wrapper"><i class="fas fa-book"></i> Portfolio</div>
-                    <div class="language"><i class="fas fa-code"></i> HTML - CSS - PHP</div>
-                    <div class="description-content-wrapper">Mon portfolio, présentant tout ce qui a à savoir sur moi.</div>
-                    <div class="links links-one">
-                        <ul>
-                            <li class="github-section-projects"><a href="https://github.com/Dany01000110/portfolio" target="_blank"><i class="fab fa-github"></i> Github</a></li>
-                            <li class="stagazers-section-projects"><i class="fas fa-star"></i> 0 étoiles</li>
-                            <li class="forks-section-projects"><i class="fas fa-code-branch"></i> 0 forks</li>
-                        </ul>
+        <div class="content-selection-projects">
+            <h1 class="text-center" id="comingsoon1">Coming soon...</h1>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="title-selection">
+            <div class="logo-title-info"></div>
+            <h1 class="projects-title">Mes compétences</h1>
+        </div>
+        <div class="content-selection-skills">
+            <div class="row">
+                <div class="col col-skill-padding">
+                    <div class="card-skill"><i class="fab fa-html5 fa-5x" style="color: #dd4b25;"></i>
+                        <div class="title-skill">
+                            <h1 style="font-size: 1.1em;font-weight: 700;">HTML5</h1>
+                        </div>
+                        <div class="progress" style="width: 70%;float: right;margin-top: -66px;border-radius: 5px;height: 20px;">
+                            <div class="progress-bar progress-html" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">80%</div>
+                        </div>
+                    </div>
+                    <div class="card-skill"><i class="fab fa-php fa-3x" style="color: #7377ad;"></i>
+                        <div class="title-skill">
+                            <h1 style="font-size: 1.6em;font-weight: 700;">PHP</h1>
+                        </div>
+                        <div class="progress" style="width: 70%;float: right;margin-top: -55px;border-radius: 5px;height: 20px;">
+                            <div class="progress-bar progress-php" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">65%</div>
+                        </div>
                     </div>
                 </div>
-                <div class="content-wrapper two-content-grid">
-                    <div class="title-content-wrapper"><i class="fas fa-book"></i> Geopol-RP</div>
-                    <div class="language"><i class="fas fa-code"></i> HTML - CSS - PHP</div>
-                    <div class="description-content-wrapper">Site complet pour un serveur Discord RP géopolitique.</div>
-                    <div class="links links-two">
-                        <ul>
-                            <li class="github-section-projects"><a href="https://github.com/Dany01000110/portfolio" target="_blank"><i class="fab fa-github"></i> Github</a></li>
-                            <li class="stagazers-section-projects"><i class="fas fa-star"></i> 0 étoiles</li>
-                            <li class="forks-section-projects"><i class="fas fa-code-branch"></i> 0 forks</li>
-                        </ul>
+                <div class="col-xl-6">
+                    <div class="card-skill"><i class="fab fa-css3-alt fa-5x" style="color: #254bdd;"></i>
+                        <div class="title-skill">
+                            <h1 style="font-size: 1.4em;font-weight: 700;">CSS3</h1>
+                        </div>
+                        <div class="progress" style="width: 70%;float: right;margin-top: -66px;border-radius: 5px;height: 20px;">
+                            <div class="progress-bar progress-css" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width: 73%;">73%</div>
+                        </div>
                     </div>
-                </div>
-                <div class="content-wrapper three-content-grid">
-                    <div class="title-content-wrapper"><i class="fas fa-book"></i> Logo projet Discord</div>
-                    <div class="language"><i class="fas fa-palette"></i></i> Graphisme</div>
-                    <div class="description-content-wrapper">Logo d'un futur projet Discord</div>
-                    <div class="content-img"></div>
-                    <div class="links">
-                        <ul>
-                            <li class="discord-section-projects discord-clipboard" data-clipboard-text="Dany01000110#3355" data-title="Cliquer pour copier"><i class="fab fa-discord"></i> Dany01000110#3355</li>
-                        </ul>
+                    <div class="card-skill"><i class="fab fa-js-square fa-5x" style="color: #ffd500;"></i>
+                        <div class="title-skill">
+                            <h1 style="font-size: 1.4em;font-weight: 700;padding-left: 22px;">JS</h1>
+                        </div>
+                        <div class="progress" style="width: 70%;float: right;margin-top: -70px;border-radius: 5px;height: 20px;">
+                            <div class="progress-bar progress-js" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100" style="width: 37%;">37%</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
-    <script type="text/javascript">
-        window.addEventListener("scroll", function() {
-          var header = document.querySelector("header");
-          header.classList.toggle("sticky", window.scrollY > 0);
-        })
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
-    <script type="text/javascript">
-        var clipboard = new ClipboardJS('.discord-clipboard');
-        var ele1 = document.getElementsByClassName('discord-clipboard');
-
-        clipboard.on('success', function(e) {
-            
-        });
-
-        clipboard.on('error', function(e) {
-            
-        });
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
+    <footer id="myFooter" style="padding:0px;">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-12">
+                    <p class="footer-copyright">© <?= date('Y') ?> Copyright ~ Développé avec le&nbsp;❤️ par&nbsp;<a href="#">Dany01000110</a></p>
+                </div>
+                <div class="col footer-social"><a class="social-icons" href="https://twitter.com/dany_frg" target="_blank"><i class="fab fa-twitter"></i></a><a class="social-icons" href="https://github.com/Dany01000110" target="_blank"><i class="fab fa-github"></i></a><a class="social-icons discord-icon"><i class="fab fa-discord"></i></a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.min.js?h=faf36e4389cd08977d86973067d78ca6"></script>
 </body>
+
 </html>
