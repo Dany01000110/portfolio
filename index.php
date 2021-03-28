@@ -41,9 +41,9 @@
         </div>
         <div class="content-selection-about"><img class="rounded-circle profile-picture" width="200" height="200" alt="Ma photo" src="assets/img/UJQkdyzU.jpg?h=30ec60747d51abbc56f56c003f28662d">
             <div class="para-about">
-                <p><br>Salut ! Je suis Dany, j'ai 18 ans, je suis Développeur Web front-end et graphiste "Flat Design" depuis maintenant 2 ans je compte vouloir en vivre quand j'aurai fini mes études concernant l'une de ces professions !<br><br></p>
-                <p><br>Travaillant sur divers projets web (open-source en majorité), je suis ouvert à toute discussion sur d'éventuel projet. Pour ce qui est du graphisme, je travaille essentiellement pour des serveurs Discord et pour moi-même en faisant des designs de t-shirt sur <br><br><a href="#">Spreadshirt</a></p>
-                <p><br>Je peux également vous conseiller et vous aider à débuter dans le développement web (HTML, CSS et PHP uniquement) ainsi que vous aider à trouver vos logiciels pour travailler dans le graphisme que ce soit en amateur ou en professionnel.<br><br></p>
+                <p>Salut ! Je suis Dany, j'ai 18 ans, je suis Développeur Web front-end et graphiste "Flat Design" depuis maintenant 2 ans je compte vouloir en vivre quand j'aurai fini mes études concernant l'une de ces professions !</p>
+                <p>Travaillant sur divers projets web (open-source en majorité), je suis ouvert à toute discussion sur d'éventuel projet. Pour ce qui est du graphisme, je travaille essentiellement pour des serveurs Discord et pour moi-même en faisant des designs de t-shirt sur <a href="#">Spreadshirt <i class="fas fa-external-link-alt"></i></a>.</p>
+                <p>Je peux également vous conseiller et vous aider à débuter dans le développement web (HTML, CSS et PHP uniquement) ainsi que vous aider à trouver vos logiciels pour travailler dans le graphisme que ce soit en amateur ou en professionnel.</p>
             </div>
         </div>
     </section>
@@ -52,7 +52,7 @@
             <div class="logo-title-info"></div>
             <h1 class="projects-title title-white">Mes projets</h1>
         </div>
-        <div class="content-selection-projects">
+        <div class="content-selection-pr
             <h1 class="text-center" id="comingsoon1">Coming soon...</h1>
         </div>
     </section>
