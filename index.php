@@ -123,7 +123,7 @@
                   <p class="card-text">
                     Début d'un site web pour un serveur de type "DarkRP" sur GMod.
                   </p>
-                  <img class="rounded-circle profile-picture" width="350" height="350" alt="Logo - Zeta Project" src="assets/img/logo_discord_copy.png">
+                  <img class="project-img" width="350" height="350" alt="Logo - Zeta Project" src="assets/img/logo_discord_copy.png">
                 </div>
               </div>
             </div>
