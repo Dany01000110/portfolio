@@ -200,7 +200,17 @@
                 <div class="col-12">
                     <p class="footer-copyright">© <?= date('Y') ?> Copyright ~ Développé avec le&nbsp;❤️ par&nbsp;<a href="#">Dany01000110</a></p>
                 </div>
-                <div class="col footer-social"><a class="social-icons" href="https://twitter.com/dany_frg" target="_blank"><i class="fab fa-twitter"></i></a><a class="social-icons" href="https://github.com/Dany01000110" target="_blank"><i class="fab fa-github"></i></a><a class="social-icons discord-icon"><i class="fab fa-discord"></i></a></div>
+                <div class="col footer-social">
+                <a class="social-icons" href="https://twitter.com/dany_frg" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a class="social-icons" href="https://github.com/Dany01000110" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a class="social-icons discord-icon" href="https://discord.bio/p/dany01000110" target="_blank">
+                  <i class="fab fa-discord"></i>
+                </a>
+              </div>
             </div>
         </div>
     </footer>
