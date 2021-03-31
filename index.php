@@ -123,7 +123,7 @@
                   <p class="card-text">
                     Logo pour mon futur projet de serveur Discord.
                   </p>
-                  <img class="project-img" width="350" height="350" alt="Logo - Zeta Project" src="assets/img/logo_discord_copy.png">
+                  <img class="project-img" alt="Logo - Zeta Project" src="assets/img/logo_discord_copy.png">
                 </div>
               </div>
             </div>
