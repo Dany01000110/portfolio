@@ -52,7 +52,7 @@
             <div class="logo-title-projects"></div>
             <h1 class="projects-title title-white">Mes projets</h1>
         </div>
-        <div class="content-selection-pr
+        <div class="content-selection-projects">
             <h1 class="text-center" id="comingsoon1">Coming soon...</h1>
         </div>
     </section>
