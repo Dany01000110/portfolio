@@ -121,7 +121,7 @@
                     <i class="fas fa-palette"></i> Illustrator
                   </h6>
                   <p class="card-text">
-                    Début d'un site web pour un serveur de type "DarkRP" sur GMod.
+                    Logo pour mon futur projet de serveur Discord.
                   </p>
                   <img class="project-img" width="350" height="350" alt="Logo - Zeta Project" src="assets/img/logo_discord_copy.png">
                 </div>
