@@ -127,6 +127,24 @@
                 </div>
               </div>
             </div>
+            <div class="col-md-4">
+              <div class="card mb-3" style="width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="fas fa-book"></i> Bannière YouTube - Zanzag
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    <i class="fas fa-palette"></i> Photoshop
+                  </h6>
+                  <p class="card-text">
+                    Bannière YouTube pour le YouTuber <a href="https://www.youtube.com/c/ZanZag" target="_blank">ZanZag</a>.
+                  </p>
+                  <a class="mega-link" href="https://mega.nz/folder/Y99ABIIQ#0smTKYeanAfNFi-tvg7wkQ" target="_blank" rel="noopener noreferrer">
+                    <img class="mega-logo" src="assets/img/mega.nz.svg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
     </section>
