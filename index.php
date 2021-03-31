@@ -53,7 +53,72 @@
             <h1 class="projects-title title-white">Mes projets</h1>
         </div>
         <div class="content-selection-projects">
-            <h1 class="text-center" id="comingsoon1">Coming soon...</h1>
+        <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-3" style="width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="fas fa-book"></i> Portfolio
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    <i class="fas fa-code"></i> HTML - CSS - JS
+                  </h6>
+                  <p class="card-text">
+                    Mon portfolio est un projet qui permet de montrer mes qualités de développeur et de graphiste.
+                  </p>
+                  <a href="https://github.com/Dany01000110/portfolio" target="_blank" class="card-link">
+                    <i class="fab fa-github"></i> Github
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3" style="width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="fas fa-book"></i> GeopolRP
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    <i class="fas fa-code"></i> HTML - CSS - PHP - JS
+                  </h6>
+                  <p class="card-text">
+                    Ce site web permettra (car il est en plein développement) d'afficher tout un tas de statistique concernant le RP. En effet, GeopolRP est un serveur Discord RP tournant autour de la géopolitique, de la politique et etc...
+                  </p>
+                  <a href="https://github.com/Geopol-RP/web-site" target="_blank" class="card-link">
+                    <i class="fab fa-github"></i> Github
+                  </a>
+                  <a href="http://geopol-rp.fr" target="_blank" class="card-link">
+                    <i class="fas fa-globe"></i> Le site
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-3" style="width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="fas fa-book"></i> ShamRP
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    <i class="fas fa-code"></i> HTML - CSS - PHP
+                  </h6>
+                  <p class="card-text">
+                    Début d'un site web pour un serveur de type "DarkRP" sur GMod.
+                  </p>
+                  <a href="https://dev.dany01000110.xyz/shamrp/" target="_blank" class="card-link">
+                    <i class="fas fa-globe"></i> Le site
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="row justify-content-md-center mt-4">
+          <div class="col-md-5 text-center">
+            <a href="https://github.com/Dany01000110" class="btn btn-primary" target="_blank">
+              <i class="fab fa-github"></i> Voir plus
+            </a>
+          </div>
+        </div>
         </div>
     </section>
     <section id="skills">
