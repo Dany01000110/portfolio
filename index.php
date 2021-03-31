@@ -111,14 +111,23 @@
                 </div>
               </div>
             </div>
+            <div class="col-md-4">
+              <div class="card mb-3" style="width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="fas fa-book"></i> Logo - Zeta Project
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    <i class="fas fa-palette"></i> Illustrator
+                  </h6>
+                  <p class="card-text">
+                    Début d'un site web pour un serveur de type "DarkRP" sur GMod.
+                  </p>
+                  <img class="rounded-circle profile-picture" width="350" height="350" alt="Logo - Zeta Project" src="assets/img/logo_discord_copy.png">
+                </div>
+              </div>
+            </div>
           </div>
-        <div class="row justify-content-md-center mt-4">
-          <div class="col-md-5 text-center">
-            <a href="https://github.com/Dany01000110" class="btn btn-primary" target="_blank">
-              <i class="fab fa-github"></i> Voir plus
-            </a>
-          </div>
-        </div>
         </div>
     </section>
     <section id="skills">
