@@ -38,7 +38,8 @@
             <div class="logo-title-info"></div>
             <h1 class="about-title">À propos</h1>
         </div>
-        <div class="content-selection-about"><img class="rounded-circle profile-picture" width="200" height="200" alt="Ma photo" src="assets/img/UJQkdyzU.jpg?h=30ec60747d51abbc56f56c003f28662d">
+        <div class="content-selection-about">
+        <img class="rounded-circle profile-picture" width="200" height="200" alt="Ma photo" src="assets/img/UJQkdyzU.jpg?h=30ec60747d51abbc56f56c003f28662d">
             <div class="para-about">
                 <p>Salut ! Je suis Dany, j'ai 18 ans, je suis Développeur Web front-end et graphiste "Flat Design" depuis maintenant 2 ans je compte vouloir en vivre quand j'aurai fini mes études concernant l'une de ces professions !</p>
                 <p>Travaillant sur divers projets web (open-source en majorité), je suis ouvert à toute discussion sur d'éventuel projet. Pour ce qui est du graphisme, je travaille essentiellement pour des serveurs Discord et pour moi-même en faisant des designs de t-shirt sur <a href="#">Spreadshirt <i class="fas fa-external-link-alt"></i></a>.</p>
