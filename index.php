@@ -17,7 +17,7 @@
 </head>
 
 <body style="user-select: none;font-family: 'Montserrat', sans-serif;overflow-x: hidden;">
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean sticky">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
         <div class="container"><a class="navbar-brand text-uppercase" href="#" style="font-size: 35px;">Dany.</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ml-auto">
