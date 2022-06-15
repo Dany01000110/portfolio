@@ -176,7 +176,7 @@
             <div class="points__title"></div>
         </div>
 
-        <form action="" method="post">
+        <form action="functions/mailer_Contact.php" method="post">
             <div class="form-group">
                 <input type="text" class="form-control" id="name" name="name" required>
                 <label for="name">Nom</label>
