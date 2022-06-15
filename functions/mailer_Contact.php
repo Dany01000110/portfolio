@@ -6,7 +6,7 @@ require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
-$postreplace1 = str_replace("<", "<\'", $_POST["question1"]);
+$postreplace1 = str_replace("<", "<\'", $_POST["message"]);
 $postreplace2 = str_replace(">", " ", $postreplace1);
 
 $mail = new PHPMailer();
