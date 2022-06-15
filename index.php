@@ -1,6 +1,6 @@
 <?php 
 
-    require_once 'functions/age.php';
+    include('functions/age.php');
 
 ?>
 
@@ -60,7 +60,7 @@
             <div class="points__title"></div>
         </div>
         <div class="content-about-me">
-            Je m'appelle Dany, j'ai <?= get_age('23/02/2003') ?> ans et je vie actuellement en France, en région <b>Centre-Val de Loire</b>. Je suis actuellement en <b>Licence d'Histoire</b> à l'Université de Tours dans l'Indre-et-Loire. Mon passe temps, le <b>développement web, le web design et la recherche d'un interface parfait pour ses utilisateurs</b>. Donc comme vous avez pu le comprendre, le développement web, pour moi, c'est une <b>pation</b> avant tout mais aussi une <b>ressource économique</b> chère à mes yeux tant le challenge des missions que j'ai pu relever ont été interressants.
+            Je m'appelle Dany, j'ai <?= get_age('2003') ?> ans et je vie actuellement en France, en région <b>Centre-Val de Loire</b>. Je suis actuellement en <b>Licence d'Histoire</b> à l'Université de Tours dans l'Indre-et-Loire. Mon passe temps, le <b>développement web, le web design et la recherche d'un interface parfait pour ses utilisateurs</b>. Donc comme vous avez pu le comprendre, le développement web, pour moi, c'est une <b>pation</b> avant tout mais aussi une <b>ressource économique</b> chère à mes yeux tant le challenge des missions que j'ai pu relever ont été interressants.
             <br>
             <br>
             Fière de cette expérience acquise au fil du temps, je suis près à vous accompagner dans vos projets les plus embitieux et les plus complexes. Je vous invite à me contacter pour toute demande de devis ou de renseignements.
