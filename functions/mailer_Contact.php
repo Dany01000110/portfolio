@@ -6,9 +6,34 @@ require 'PHPMailer/src/Exception.php';
 require 'PHPMailer/src/PHPMailer.php';
 require 'PHPMailer/src/SMTP.php';
 
+function test_input($data) {
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
+
+if (empty($_POST["email"])) {
+    header('Location: ../?errormail=isempty');
+    exit;
+} else {
+    $email = test_input($_POST["email"]);
+    // check if e-mail address is well-formed
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        header('Location: ../?errormail=isntmail');
+        exit;
+    }
+}
+
+$email = test_input($_POST["email"]);
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    header('Location: index?errormail=isntmail');
+    exit;
+}
+
 $namereplace1 = str_replace("<", "/'", $_POST['name']);
 $namereplace2 = str_replace(">", "/", $namereplace1);
-$mailreplace1 = str_replace("<", "/'", $_POST['mail']);
+$mailreplace1 = str_replace("<", "/'", $_POST['email']);
 $mailreplace2 = str_replace(">", "/", $mailreplace1);
 $titlereplace1 = str_replace("<", "/'", $_POST['title_message']);
 $titlereplace2 = str_replace(">", "/", $titlereplace1);
