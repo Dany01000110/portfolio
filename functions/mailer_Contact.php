@@ -10,6 +10,8 @@ $namereplace1 = str_replace("<", "/'", $_POST['name']);
 $namereplace2 = str_replace(">", "/", $namereplace1);
 $mailreplace1 = str_replace("<", "/'", $_POST['mail']);
 $mailreplace2 = str_replace(">", "/", $mailreplace1);
+$titlereplace1 = str_replace("<", "/'", $_POST['title_message']);
+$titlereplace2 = str_replace(">", "/", $titlereplace1);
 $messagereplace1 = str_replace("<", "/'", $_POST["message"]);
 $messagereplace2 = str_replace(">", "/", $messagereplace1);
 
@@ -30,7 +32,7 @@ $mail->smtpConnect();                               //Connexion au serveur SMTP
 $mail->From = 'contacts@dany01000110.xyz';         //Adresse email de l'expéditeur
 $mail->FromName = 'Moi'; //Nom de l'expéditeur
 
-$mail->Subject = 'Prise de contact - '.$nameplace2;                      //Le sujet du mail
+$mail->Subject = 'Prise de contact - '.$titlereplace1;                      //Le sujet du mail
 $mail->WordWrap = 50; 			                   //Nombre de caracteres pour le retour a la ligne automatique
 $mail->MsgHTML('<style>
     @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
