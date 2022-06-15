@@ -43,9 +43,9 @@ $mail->MsgHTML('<style>
 $mail->IsHTML(true);
 $mail->AddAddress('contacts@dany01000110.xyz','...'); //Destinataire
 if (!$mail->send()) {
-    header('Location: ?errormail='.$mail->ErrorInfo);
+    header('Location: ../?errormail='.$mail->ErrorInfo);
 } else{
-    header('Location: ?success');
+    header('Location: ../?success');
     exit();
 }
 ?>
